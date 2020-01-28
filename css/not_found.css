@@ -18,7 +18,7 @@ body {
   color: #f5f5f5;
   font: 48pt Tutty, arial;
   text-align: center;
-  margin-top: 45%;
+  margin-top: 45vh;
 }
 
 #main::before {
@@ -29,8 +29,11 @@ body {
   top: -50%;
   left: -50%;
   z-index: -1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../assets/img/backgroundTexture.png) 0 0 repeat;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/backgroundTexture.png) 0 0 repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/backgroundTexture.png) 0 0 repeat;
-  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+      -ms-transform: rotate(315deg);
+          transform: rotate(315deg);
 }
 
-/*# sourceMappingURL=not_found.css.map */
