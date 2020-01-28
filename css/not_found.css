@@ -18,7 +18,7 @@ body {
   color: #f5f5f5;
   font: 48pt Tutty, arial;
   text-align: center;
-  margin-top: 45%;
+  margin-top: 45vh;
 }
 
 #main::before {
